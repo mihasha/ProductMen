@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 30px;
+  background-color: #f5f5f5;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 166px;
+  font-weight: 800;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 0.95;
+}
+h2{
+  font-size: 48px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+a{
+  text-decoration: none;
+}
+.content{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+header{
+  margin: 0 0 70px 0;
+  width: 100%;
+}
+.logo{
+  display: inline-block;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+.menu-all{
+  float: right;
+  display: inline-block;
+}
+.menu, .menu li{
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu a{
+  color: black;
+}
+.menu a:hover{
+  color: red;
+}
+.menu-open{
+  display:inline-block;
+  margin: 15px 0;
+  width: 25px;
+  height: 20px;
+  background-size: 10% 10%;
+  background: url(../img/Hamburger.png)no-repeat;
+}
+.menu-open:hover{
+  opacity: 0.6;
+}
+.slide-text{
+  box-sizing: border-box;
+  word-wrap: break-word;
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  padding: 0 80px 0 0px;
+}
+.slide-text p{
+  font-size: 24px;
+  text-align: right;
+}
+.slide-photo{
+  display: inline-block;
+}
+.slide-text a{
+  float: right;
+  color: #e10011;
+  font-size: 24px;
+  font-weight: 800;
+}
+.slide-text a:hover{
+  color:rosybrown;
+}
+.slide-dots{
+  margin-top: 70px;
+  display: block;
+  text-align: center;
+}
+.slide-dots li{
+  background-color:black;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 10px 5px;
+  display: inline-block;
+}
+li.dot-red{
+  background:red;
+}
+.slide-dots li:hover{
+ background:red;
+ cursor: pointer;
+}
+.product{
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  margin-top:100px;
+  padding: 40px 20px 20px;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+.featured-text{
+  width: 50%;
+  text-align: center;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+.photo-list{
+
+  width: 100%;
+  font-size: 0;
+}
+.one{
+  width: 33%;
+  margin-top: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.two{
+  width: 66%;
+  margin-top: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.one img,.two img{
+  width: 100%;
+}
+.one,.two{
+  position: relative;
+  overflow: hidden;
+}
+.hover-up{
+  box-sizing: border-box;
+  position: absolute;
+  background:none;
+  width: 95%;
+  top: 0;
+  font-weight: 600;
+  right: 20px;
+  height: 100%;
+}
+.two .hover-up{
+  position: absolute;
+  background:none;
+  width: 97.3%;
+  top: 0;
+  right: 20px;
+  height: 100%;
+}
+.hover-up:hover{
+  background:red;
+  opacity: 0.8;
+  transition: ease-out 0.7s;
+
+}
+.hover-up:hover:after{
+  content: "Minimal Product Design";
+  width: 80%;
+  font-size: 24px;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+  position: absolute;
+
+}
+.hover-up:hover:before{
+  content: "";
+  width: 30px;
+  margin-top: 10px;
+  background:white;
+  height: 5px;
+  font-size: 24px;
+  bottom: 20px;
+  right: 30px;
+  left: 30px;
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+  position: absolute;
+
+}
